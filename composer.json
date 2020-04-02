@@ -1,0 +1,47 @@
+{
+    "name": "ekristensen/pf-wp-studiestart",
+    "description": "POP Homepage",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        },
+	{
+            "type": "vcs",
+            "url": "git@github.com:eKristensen/pop-homepage-theme.git"
+        }
+    ],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emil Kristensen",
+            "email": "eKristensen@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/autoptimize": "^2.6",
+        "wpackagist-plugin/disable-blog": "^0.4.6",
+        "wpackagist-plugin/ewww-image-optimizer": "^5.2",
+        "wpackagist-plugin/multisite-language-switcher": "^2.3",
+        "wpackagist-plugin/wp-cerber": "^8.5",
+        "wpackagist-plugin/wp-super-cache": "^1.7",
+        "wpackagist-plugin/wordpress-seo": "^13.3",
+        "ekristensen/pop-homepage-theme": "dev-master",
+        "wpackagist-plugin/breadcrumb-navxt": "^6.4",
+        "wpackagist-plugin/disable-emojis": "^1.7",
+        "wpackagist-plugin/gecka-submenu": "^0.7.3",
+        "wpackagist-plugin/siteorigin-panels": "^2.10",
+        "wpackagist-plugin/page-list": "^5.2",
+        "wpackagist-plugin/redirection": "^4.7",
+        "wpackagist-plugin/so-widgets-bundle": "^1.16"
+    },
+    "extra": {
+        "installer-paths": {
+            "public/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "public/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
