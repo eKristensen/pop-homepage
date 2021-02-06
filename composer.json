@@ -22,7 +22,7 @@
     "require": {
         "wpackagist-plugin/autoptimize": "^2.6",
         "wpackagist-plugin/disable-blog": "^0.4.6",
-        "wpackagist-plugin/ewww-image-optimizer": "^5.2",
+        "wpackagist-plugin/ewww-image-optimizer": "*",
         "wpackagist-plugin/multisite-language-switcher": "^2.3",
         "wpackagist-plugin/wp-cerber": "^8.5",
         "wpackagist-plugin/wp-super-cache": "^1.7",
@@ -33,7 +33,7 @@
         "wpackagist-plugin/gecka-submenu": "^0.7.3",
         "wpackagist-plugin/siteorigin-panels": "^2.10",
         "wpackagist-plugin/page-list": "^5.2",
-        "wpackagist-plugin/redirection": "^4.7",
+        "wpackagist-plugin/redirection": "*",
         "wpackagist-plugin/so-widgets-bundle": "^1.16"
     },
     "extra": {
